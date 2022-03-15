@@ -20,7 +20,6 @@ public class ArrayLeftRotation {
 	 * @return : int[] result of left rotation
 	 */
 	public static int[] rotateLeft(int[] arr, int n) {
-		
 		int size = arr.length;
 		int[] dst = new int[size];
 		n = n % size;
